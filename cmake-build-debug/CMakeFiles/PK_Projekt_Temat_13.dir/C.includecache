@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/ChangePathFile.c
+ChangePathFile.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/ChangePathFile.h
+DatabaseStruct.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/DatabaseStruct.h
+stdio.h
+-
+string.h
+-
+ctype.h
+-
+malloc.h
+-
+
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/ChangePathFile.h
+DatabaseStruct.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/DatabaseStruct.h
+
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/DatabaseStruct.h
+ItemStruct.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/ItemStruct.h
+
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/InputOutputData.c
+InputOutputData.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/InputOutputData.h
+DatabaseStruct.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/DatabaseStruct.h
+
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/InputOutputData.h
+stdio.h
+-
+stdlib.h
+-
+DatabaseStruct.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/DatabaseStruct.h
+
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/ItemStruct.h
+
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/Sorting.c
+InputOutputData.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/InputOutputData.h
+Sorting.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/Sorting.h
+ItemStruct.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/ItemStruct.h
+InputOutputData.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/InputOutputData.h
+
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/Sorting.h
+ItemStruct.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/ItemStruct.h
+DatabaseStruct.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/DatabaseStruct.h
+
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/main.c
+stdio.h
+-
+ChangePathFile.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/ChangePathFile.h
+Sorting.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/Sorting.h
+main.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/main.h
+InputOutputData.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/InputOutputData.h
+DatabaseStruct.h
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/DatabaseStruct.h
+
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/main.h
+

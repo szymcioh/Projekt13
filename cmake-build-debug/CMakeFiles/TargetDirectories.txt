@@ -1,0 +1,3 @@
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/cmake-build-debug/CMakeFiles/PK_Projekt_Temat_13.dir
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/cmake-build-debug/CMakeFiles/rebuild_cache.dir
