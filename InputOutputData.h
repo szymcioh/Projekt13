@@ -14,5 +14,6 @@ void SaveToFileTable(Database* database);
 
 void PrintTable(Database* database);
 
+void ClearDb(Database* database);
 
 #endif //PK_PROJEKT_TEMAT_13_INPUT_OUTPUT_DATA_H

@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/ChangePathFile.c" "C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/cmake-build-debug/CMakeFiles/PK_Projekt_Temat_13.dir/ChangePathFile.c.obj"
-  "C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/InputOutputData.c" "C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/cmake-build-debug/CMakeFiles/PK_Projekt_Temat_13.dir/InputOutputData.c.obj"
-  "C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/Sorting.c" "C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/cmake-build-debug/CMakeFiles/PK_Projekt_Temat_13.dir/Sorting.c.obj"
-  "C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/main.c" "C:/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/cmake-build-debug/CMakeFiles/PK_Projekt_Temat_13.dir/main.c.obj"
+  "/mnt/c/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/ChangePathFile.c" "/mnt/c/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/cmake-build-debug/CMakeFiles/PK_Projekt_Temat_13.dir/ChangePathFile.c.o"
+  "/mnt/c/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/InputOutputData.c" "/mnt/c/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/cmake-build-debug/CMakeFiles/PK_Projekt_Temat_13.dir/InputOutputData.c.o"
+  "/mnt/c/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/Sorting.c" "/mnt/c/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/cmake-build-debug/CMakeFiles/PK_Projekt_Temat_13.dir/Sorting.c.o"
+  "/mnt/c/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/SortingTest.c" "/mnt/c/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/cmake-build-debug/CMakeFiles/PK_Projekt_Temat_13.dir/SortingTest.c.o"
+  "/mnt/c/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/main.c" "/mnt/c/Users/szymo/Desktop/AEI Git/PI Sem II/Projekt13/cmake-build-debug/CMakeFiles/PK_Projekt_Temat_13.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

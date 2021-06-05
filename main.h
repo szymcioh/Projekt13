@@ -7,6 +7,5 @@
 
 void PrintOptionMainProgram();
 void GenerateRandomData(Database* database);
-void RandomString(char* string, int length);
 
 #endif //PK_PROJEKT_TEMAT_13__MAIN_H

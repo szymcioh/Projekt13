@@ -27,9 +27,9 @@ void AddMultipleItems(Database* database) {
 	}
 }
 
-void SaveToFileTable(Database* database) {
-	FILE *plik;
-	fopen_s(&plik, database->dbPath, "w+");
+void SaveToFileTable(Database* database)
+{
+	auto *plik = fopen(database->dbPath, "w+");
 
 	if (!plik) {
 		printf("Bląd zapisu pliku\n");
@@ -40,6 +40,12 @@ void SaveToFileTable(Database* database) {
 		fprintf(plik, "%s, %lf\n", database->records[i].name, database->records[i].price);
 
 	fclose(plik);
+}
+
+void ClearDb(Database* database)
+{
+	free(database->records);
+	database->recordsCount = 0;
 }
 
 void PrintTable(Database* database){

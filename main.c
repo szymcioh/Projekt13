@@ -4,6 +4,10 @@
 #include "main.h"
 #include "InputOutputData.h"
 #include "DatabaseStruct.h"
+#include <string.h>
+#include "SortingTest.h"
+#include <time.h>
+
 
 int main()
 {
@@ -45,7 +49,7 @@ int main()
 				printSteps = 1;
 				break;
             case 8:
-				GenerateRandomData(&database);
+				TestSorting();
                 break;
 			case 9:
 				exitLoop = 1;
@@ -56,6 +60,8 @@ int main()
                 break;
         }
     }
+
+	ClearDb(&database);
 
     return 0;
 }
@@ -69,37 +75,7 @@ void PrintOptionMainProgram(){
 	printf("5 - Zmiana sciezki do zapisu wyniku\n");
 	printf("6 - Zapis do pliku\n");
 	printf("7 - Aktywuj wyswietlanie wynikow posrednich\n");
-	printf("8 - Wygeneruj losowe dane\n");
+	printf("8 - Wykonaj pomiary czasu sortowania\n");
 	printf("9 - Wyjscie z programu\n");
 }
 
-void GenerateRandomData(Database* database)
-{
-	int recordsAmount;
-
-	if (database->records != NULL)
-	{
-		printf("Nie mozna dodac wiecej elementow\n");
-		return;
-	}
-
-	printf("Wprowadz ilosc rekordow do utworzenia");
-	scanf("%d", &recordsAmount);
-
-	database->records = malloc(recordsAmount * sizeof *database->records);
-	database->recordsCount = recordsAmount;
-
-	for(int i = 0; i < recordsAmount; i++)
-	{
-		RandomString(&database->records[i].name, 20);
-		database->records[i].price = rand() / 10.0;
-	}
-}
-
-void RandomString(char* string, int length)
-{
-	static char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-
-	for(int i = 0; i < length; i++)
-		string[i] = charset[rand() % (int)(sizeof(charset) -1)];
-}
